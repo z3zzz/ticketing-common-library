@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UnAuthorizedError = exports.BadRequestError = exports.jwt = exports.cors = exports.cookie = exports.postgres = void 0;
+exports.UnAuthorizedError = exports.BadRequestError = exports.jwt = exports.cors = exports.cookieOpt = exports.cookie = exports.postgres = void 0;
 var postgres_1 = require("./plugins/postgres");
 Object.defineProperty(exports, "postgres", { enumerable: true, get: function () { return postgres_1.postgres; } });
 var cookie_1 = require("./plugins/cookie");
 Object.defineProperty(exports, "cookie", { enumerable: true, get: function () { return cookie_1.cookie; } });
+Object.defineProperty(exports, "cookieOpt", { enumerable: true, get: function () { return cookie_1.cookieOpt; } });
 var cors_1 = require("./plugins/cors");
 Object.defineProperty(exports, "cors", { enumerable: true, get: function () { return cors_1.cors; } });
 var jwt_1 = require("./plugins/jwt");
