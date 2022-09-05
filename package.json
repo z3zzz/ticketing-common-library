@@ -16,6 +16,7 @@
   "dependencies": {
     "@fastify/cookie": "^7.4.0",
     "@fastify/cors": "^8.1.0",
+    "@fastify/formbody": "^7.1.0",
     "@fastify/jwt": "^6.3.2",
     "@fastify/postgres": "^5.0.0",
     "fastify": "^4.4.0",

@@ -44,6 +44,13 @@
   dependencies:
     fast-json-stringify "^5.0.0"
 
+"@fastify/formbody@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@fastify/formbody/-/formbody-7.1.0.tgz#be1963dc439483b5d49f14853243bdf87e7a3e3a"
+  integrity sha512-jiMb1Ie7APs7mLBuLeBGoMD0mhMGuQECjBhhPYxoFcPaORD10Ocjxwg2BWTkBgg1PYxJWXkVxFxoyBLXGrJDdA==
+  dependencies:
+    fastify-plugin "^4.0.0"
+
 "@fastify/jwt@^6.3.2":
   version "6.3.2"
   resolved "https://registry.yarnpkg.com/@fastify/jwt/-/jwt-6.3.2.tgz#f29ba7e5239f07b3941bf9f63777b20e5a798149"
